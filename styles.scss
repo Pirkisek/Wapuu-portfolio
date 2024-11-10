@@ -1,0 +1,115 @@
+body, h1, h2, p, a {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #1d1e25;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .container {
+    padding: 5vh 0vh;
+    h1,h2 {
+    color: rgb(255, 208, 0);
+    }
+  }
+  
+  h1 {
+    font-size: 5vh;
+    margin-bottom: 5vh;
+    font-weight: 100;
+  }
+  
+  h2 {
+    font-size: 3vh;
+    color: #ccc;
+    margin-bottom: 3vh;
+    font-weight: 100;
+  }
+  
+  .card {
+    margin-top: 10vh;
+    background-color: #26262a;
+    border-radius: 5vh;
+    padding-bottom: 5vh;
+    width: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 3vh;
+    padding-bottom: 7vh;
+  }
+  
+  .menu {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 2vh;
+    margin-bottom: 2vh;
+    white-space: 1vh;
+  }
+  
+  .menu-item {
+    font-size: 1.2rem;
+    color: #e0e0e0;
+    cursor: pointer;
+  }
+  
+  .videos {
+    display: flex;
+    columns: 2;
+    justify-content: center;
+    gap: 2vh
+  }
+  
+  .video {
+    width: 40%;
+  }
+  
+  .video img {
+    width: 100%;
+    border-radius: 2vh;
+  }
+  
+  .video p {
+    margin-top: 1vh;
+    font-size: 1rem;
+  }
+  
+  .social-links {
+    margin-top: 2vh;
+    color: yellow;
+  }
+  
+  .social-links a,i {
+    color: #bbb;
+    margin: 0 1vh;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  
+  
+  a:hover,.menu-item:hover,i:hover {
+    color: rgb(255, 208, 0);
+    transition: 0.5s;
+  }
+
+  .pfp {
+    width: 10%;
+    border-radius: 50%;
+    margin: 2vh;
+  }
+
+  .menu-item {
+    color: #ccc;
+    text-shadow: 0.2vh 0.2vh 0 rgba(255, 255, 0, 0.699);
+  }
+
+  .credit {
+    font-size: 1vh;
+    color: #cccccc81;
+    
+  }
+
+/*Responsive styles*/
